@@ -1,0 +1,102 @@
+Planejamento do jogo -  Zona de Guerra Eterna
+
+Pesquisar sobre: "Blender"
+
+----------------------------------------------------------------
+
+1. Planejamento e Desing:
+Defina a mecânica do jogo.
+
+Jogabilidade basica
+
+historia e Narrativa
+
+Crie desing de mundo aberto com mapas, cenarios e missaos.
+
+
+Desing de Mundo aberto:
+
+Mapa e Geografia: Crie um mapa que represente o mundo do jogo e sua geografia. Isso inclui a localização de cidades, pontos de referência, masmorras, florestas, montanhas, rios, etc.
+Detalhamento de Cenários: Desenhe cenários que variem em termos de aparência e atmosfera. Desenvolva a estética dos locais, como arquitetura, vegetação, paisagens, e decoração.
+Missões e Eventos: Crie uma variedade de missões principais e secundárias que os jogadores podem completar. Considere como essas missões se relacionam com a narrativa geral e o mundo do jogo.
+NPCs (Personagens Não Jogáveis): Projete NPCs que habitam o mundo do jogo, com personalidades, diálogos e interações únicas.
+Sistemas de Climatologia e Ciclo Dia/Noite: Adicione elementos como mudanças climáticas, ciclos dia/noite e estações para tornar o mundo mais dinâmico.
+Sistemas de Economia: Se apropriado, crie um sistema de economia que afete os preços, disponibilidade de itens e a riqueza dos personagens no jogo.
+
+
+----------------------------------------------------------------
+
+
+2. Configuração de Ambiente
+ Instale o Python em seu sistema, se ainda não estiver instalado.
+
+ instale as bibliotecas necessárias, como Pygame, PyOpenGL e outras que você possa precisar.
+
+
+
+----------------------------------------------------------------
+
+ 3. Modelagens 3D:
+ Crie modelos 3D para personagens, objetos e cenários. Você pode usar software de modelagem 3D, como (Blender).
+
+ Exporte os modelos em um formato compatível com a sua biblioteca de gráficos 3D (por exemplo, formatos .obj ou .fbx).
+
+
+
+ ----------------------------------------------------------------
+
+
+ 4. Renderização 3D:
+ Use bibliotecas como PyOpenGL para lidar com a renderização 3D.
+
+Carregar modelos 3D:
+Você pode usar bibliotecas como PyWavefront, PyAssimp ou qualquer outra que suporte o formato de modelo 3D que você deseja usar. Carregue seus modelos 3D e prepare-os para renderização.
+
+Configurar a câmera:
+Defina a posição, orientação e projeção da câmera para determinar a visão da cena 3D. Isso envolve o uso das matrizes de modelo e visão.
+
+
+Carregue os modelos 3D e crie o ambiente 3D do jogo.
+
+Renderização principal:
+Crie um loop principal para a renderização. Neste loop, você irá renderizar seus modelos 3D na cena e atualizar a janela de visualização.
+
+
+
+
+----------------------------------------------------------------
+
+5. Fisia e colisoes:
+Implemente física para objetos, personagens e movimentação no mundo 3D.
+
+Gerencie colisões entre objetos.
+
+----------------------------------------------------------------
+
+ 6. Logica do jogo:
+
+ Desenvolva a lógica do jogo, incluindo a IA de personagens não jogáveis, missões, eventos e interações.
+
+
+ Lidar com entradas:
+Implemente código para lidar com entradas do jogador, como teclado e mouse, para controlar a câmera ou interagir com objetos na cena.
+
+Adicionar interatividade:
+Implemente a lógica do jogo, como detecção de colisões, reações a eventos e ações do jogador.
+
+----------------------------------------------------------------
+
+ 7. Controles e interface do Usuario:
+
+ Crie controles para o jogador.
+
+Desenvolva a interface do usuário para menus, inventário e informações do jogo.
+
+----------------------------------------------------------------
+
+8. Áudio:
+
+Adicione efeitos sonoros e trilhas sonoras ao jogo usando bibliotecas de áudio como Pygame.mixer.
+
+----------------------------------------------------------------
+
